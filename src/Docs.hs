@@ -26,9 +26,9 @@ data DocPiece = DocPiece
 format :: DocPiece -> Text
 format DocPiece{..} = Text.concat
   [ docIdentifier
-  , "—"
+  , " — "
   , docPieceText
-  , "."
+  , " "
   , runUrl docPieceLink
   ]
 
