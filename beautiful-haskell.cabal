@@ -23,4 +23,8 @@ executable beautiful-haskell
       src
   build-depends:
       base >= 4.7 && < 5
+    , text
+    , scalpel
+  other-modules:
+      Docs
   default-language: Haskell2010
