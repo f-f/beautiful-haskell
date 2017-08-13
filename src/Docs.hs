@@ -38,8 +38,6 @@ trimText maxLength t
       where
         result' = result <> ". " <> sentence
 
-
-
 format :: DocPiece -> Text
 format DocPiece{..} = Text.concat
   [ docIdentifier
